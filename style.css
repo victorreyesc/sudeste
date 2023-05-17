@@ -1,0 +1,175 @@
+/****gerais***/
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    font-family: "Montserrat" sans-serif;
+}
+
+html,body{
+	height: 100%;
+    background: white;
+}
+
+.container{
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.clear{
+	clear: both;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+/****header****/
+
+header{
+	background-color: #008fd6;
+	padding: 9px 2% 90px;
+}
+
+.logo{
+	float: left;
+	width: 150px;
+	height: 80px;
+	background-image: url('./assets/logo.png');
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.li-nav{
+    display: inline-block;
+}
+
+nav{
+    float: right;
+    margin: 15px 8px; 
+    font-weight: bold;
+}
+
+.ul-nav{
+    list-style: none;
+}
+
+/*****conteudo*****/
+
+.ul-a{
+    display: table;
+}
+
+.ul-b{
+    display:table;
+    margin-left: 70px;
+    font-weight: 600;
+}
+.main-a{
+    color: black;
+    text-align: left;
+    margin-top: 90px;
+    display: block;
+}
+
+.titulo-a{
+    color: #e593b5;
+}
+
+
+.main-b{
+    background-color: #e593b5;
+    padding-top: 1px;
+    padding-bottom: 50px;
+    color: #ffffff;
+    text-align: left;
+    margin-top: 90px;
+    display: block;
+}
+
+.titulo-b{
+    color: #008fd6;
+    text-align: right;
+    margin-top: 90px;
+}
+
+h2{
+    font-size: 64px;
+}
+
+#foto-main-a{
+    border-radius: 30px;
+    float: left;
+    margin: -40px 40px;
+    border: 4px solid #e593b5;
+    width: 652px;
+    height: 434px;
+}
+
+#foto-main-b{
+    border-radius: 30px;
+    float: right;
+    margin: 40px 40px;
+    border: 4px solid white;
+    width: 652px;
+    height: 434px;
+}
+
+#foto-main-b2{
+    border-radius: 30px;
+    float: right;
+    margin: 70px 40px;
+    border: 4px solid white;
+    width: 672px;
+    height: 414px;
+}
+
+p{
+    color: white;
+    font-size: larger;
+    margin-left: 120px;
+}
+
+/*****rodapé*****/
+
+footer{
+    background-color: #222222;
+    padding: 50px;
+}
+
+.titulo-footer{
+    color: white;
+    text-align: center;
+}
+
+.ul-footer{
+    color: white;
+    list-style: none;
+    text-align: center;
+}
+
+.mascote{
+    float: right;
+    width: 320px;
+    height: 180px;
+    background-image: url(./assets/mascote.png);
+    background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-position: center;
+    margin-top: -130px;
+}
+
+.bandeira{
+    float: left;
+    width: 199px;
+    height: 133px;
+    background-image: url(./assets/bandeira.png);
+    background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-position: center;
+    margin-top: -120px;
+}
